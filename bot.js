@@ -1,29 +1,29 @@
-const Eris = require("eris");
-var Relax = new Eris("token");
- Relax.on("ready", () => {
-    console.log("tm");
+  const Eris = require("eris");
+var x5bzteam = new Eris("NTE0ODMxNjk0Mjk4MjE4NDk2.DtcSOQ.KQRUKpu2mQL6E7m2KENsloN5j3A");
+x5bzteam.on("ready", () => {
+    console.log("Yo! Changer [ON]");
     onstart();
 });
-Relax = "513483782943408149";
+x5bz = "513483782943408149";
 nick = "Relax";
 function onstart(){
     var v1 = nick.split('');
     var counter;
     var i=0;
-var Acura 2 = ' 2 ';
-  var Acura =   setInterval(function(){
-
+var x5bz2 = ' ';
+  var x5bz3 =   setInterval(function(){
+     
      if (i == v1.length){
-     clearInterval(Relax);
+     clearInterval(x5bz3);
      onstart()
       return;
      }
      var v2 = v1[i];
-   Acura  += v2;
-    Acura.editNickname(Relax);
+    x5bz2 += v2;
+    x5bzteam.editNickname(x5bz, x5bz2);
  
         i++;
-
+   
      }, 1000);
 }
-Acura.connect();
+x5bzteam.connect();
