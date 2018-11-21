@@ -1,6 +1,6 @@
 const Eris = require("eris");
 var Relax = new Eris("token");
-var Relax.on("ready", () => {
+ Relax.on("ready", () => {
     console.log("tm");
     onstart();
 });
