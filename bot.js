@@ -10,7 +10,7 @@ function onstart(){
     var v1 = nick.split('');
     var counter;
     var i=0;
-var Acura 2 = '5 ';
+var Acura 2 = ' 2 ';
   var Acura =   setInterval(function(){
 
      if (i == v1.length){
