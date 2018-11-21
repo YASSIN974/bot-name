@@ -19,11 +19,9 @@ client.user.setPresence({
         large_image: `370451271133429760`,
         large_text: `ҜṦẰ FOREVER ♥` }
 
+    }
   }
     });
+    }, 5000);
 });
-
-
-
-
-client.login("token");﻿
+client.login(process.env.BOT_TOKEN);
