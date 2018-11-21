@@ -14,13 +14,13 @@ varAcura 2 = ' ';
   var Acura =   setInterval(function(){
 
      if (i == v1.length){
-     clearInterval(Acura);
+     clearInterval(Relax);
      onstart()
       return;
      }
      var v2 = v1[i];
    Acura  += v2;
-    Acura.editNickname(Acura);
+    Acura.editNickname(Relax);
  
         i++;
 
